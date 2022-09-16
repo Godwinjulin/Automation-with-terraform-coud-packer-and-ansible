@@ -1,6 +1,6 @@
 variable "region" {
   type    = string
-  default = "us-east-1"
+  default = "eu-west-2"
 }
 
 locals {
@@ -22,7 +22,7 @@ source "amazon-ebs" "terraform-bastion-prj-19" {
       virtualization-type = "hvm"
     }
     most_recent = true
-    owners      = ["309956199498"]
+    owners      = ["348254368030"]
   }
   ssh_username = "ec2-user"
   tag {

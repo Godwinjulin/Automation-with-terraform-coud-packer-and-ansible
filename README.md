@@ -29,7 +29,7 @@ sudo apt install graphviz
 https://www.terraform.io/docs/cli/commands/graph.html
 
 
-### Action Plan for project 19
+### Action Plan for this project 
 
 - Build images using packer
 - confirm the AMIs in the console

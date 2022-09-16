@@ -1,6 +1,6 @@
 variable "region" {
   type    = string
-  default = "us-east-1"
+  default = "eu-west-2"
 }
 
 locals { timestamp = regex_replace(timestamp(), "[- TZ:]", "") }
@@ -20,7 +20,7 @@ source "amazon-ebs" "terraform-web-prj-19" {
       virtualization-type = "hvm"
     }
     most_recent = true
-    owners      = ["309956199498"]
+    owners      = ["3482-5436-8030"]
   }
   ssh_username = "ec2-user"
   tag {

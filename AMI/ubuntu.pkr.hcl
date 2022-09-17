@@ -20,7 +20,7 @@ source "amazon-ebs" "terraform-ubuntu-prj-19" {
       virtualization-type = "hvm"
     }
     most_recent = true
-    owners      = ["348254368030"]
+    owners      = ["309956199498"]
   }
   ssh_username = "ubuntu"
   tag {

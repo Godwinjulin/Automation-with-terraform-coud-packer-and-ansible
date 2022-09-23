@@ -1,4 +1,4 @@
-region = "us-east-1"
+region = "eu-west-2"
 
 vpc_cidr = "10.0.0.0/16"
 
@@ -24,13 +24,13 @@ ami-nginx = "ami-010bd88cc8f5997f3"
 
 ami-sonar = "ami-0f8bd95a744e074b8"
 
-keypair = "devops"
+keypair = "deployer-key"
 
 master-password = "devopspblproject"
 
 master-username = "david"
 
-account_no = "696742900004"
+account_no = "348254368030"
 
 tags = {
   Owner-Email     = "infradev-segun@darey.io"
